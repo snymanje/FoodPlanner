@@ -19,7 +19,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       { from: "src/css", to: "css" },
-      { from: "src/sw.js", to: "sw.js" }
+      { from: "src/sw.js", to: "sw.js" },
+      { from: "src/manifest.json", to: "manifest.json" }
     ])
   ],
   // babel stuff
