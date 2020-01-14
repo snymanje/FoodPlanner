@@ -4,7 +4,7 @@
   "description": "Daily Meal Planner",
   "main": "app.js",
   "scripts": {
-    "watch:sass": "node-sass src/sass/main.scss -o src/css/ -w",
+    "watch:sass": "node-sass src/sass/style.scss -o src/css/ -w",
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development --open",
     "start": "npm-run-all --parallel dev watch:sass"
